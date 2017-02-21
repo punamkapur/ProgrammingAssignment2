@@ -1,4 +1,10 @@
 ## The makeCacheMatrix function will take a vector of type matrix as an input and can cache its inverse.
+## In order to test these functions:
+## x = rbind(c(2, 3), c(2, 2))
+## m = makeCacheMatrix(x)
+## m$get()
+## cacheSolve(m)
+## cacheSolve(m)
 
 makeCacheMatrix <- function(x = matrix()) {
          inv <- NULL                                      ## inverse vector
